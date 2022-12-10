@@ -26,5 +26,9 @@ treesitter.setup({
       scope_incremental = "<TAB>",
     },
   },
+  -- 启用代码缩进模块 (=)
+  indent = {
+    enable = true,
+  },
 })
 
