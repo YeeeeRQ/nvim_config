@@ -52,8 +52,8 @@ map("n", "<C-d>", "10j", opt)
 map("v", "<", "<gv", opt)
 map("v", ">", ">gv", opt)
 -- 上下移动选中文本
-map("v", "J", ":move '>+1<CR>gv-gv", opt)
-map("v", "K", ":move '<-2<CR>gv-gv", opt)
+-- map("v", "J", ":move '>+1<CR>gv-gv", opt)
+-- map("v", "K", ":move '<-2<CR>gv-gv", opt)
 
 -- 在visual mode 里粘贴不要复制
 map("v", "p", '"_dP', opt)
@@ -162,13 +162,14 @@ map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
 -- "moll/vim-bbye" 关闭当前 buffer
 map("n", "<leader>bc", ":Bdelete!<CR>", opt)
 map("n", "<C-w>", ":Bdelete!<CR>", opt)
+-- 关闭其他标签页
+map("n", "<leader>bo", ":BufferLineCloseRight<CR>:BufferLineCloseLeft<CR>", opt)
+
 -- 关闭左/右侧标签页
 map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
--- 关闭其他标签页
-map("n", "<leader>bo", ":BufferLineCloseRight<CR>:BufferLineCloseLeft<CR>", opt)
 -- 关闭选中标签页
-map("n", "<leader>bp", ":BufferLinePickClose<CR>", opt)
+-- map("n", "<leader>bp", ":BufferLinePickClose<CR>", opt)
 
 -- Telescope
 map("n", "<C-p>", ":Telescope find_files<CR>", opt)
