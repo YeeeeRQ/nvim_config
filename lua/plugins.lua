@@ -5,6 +5,8 @@ packer.startup({
     use 'wbthomason/packer.nvim'
     -- tokyonight
     use("folke/tokyonight.nvim")
+    -- nvim-tree
+    use({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
   end,
   config = {
     -- 并发数限制

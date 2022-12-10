@@ -7,3 +7,6 @@ require("keybindings")
 -- 主题设置 
 require("colorscheme")
 
+-- plugin nvim-tree, sidebar
+require("plugin-config.nvim-tree")
+
