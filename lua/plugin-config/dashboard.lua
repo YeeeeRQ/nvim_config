@@ -6,7 +6,7 @@ end
 
 db.custom_footer = {
   "",
-  "\"Put something here randomly.\"",
+  "Extremes are dangerous.",
   "",
 }
 
@@ -59,7 +59,6 @@ db.custom_center = {
 }
 
 db.custom_header = {
-  [[]],
 [[        -              .      .           .   ]],
 [[        .-             -:     .-         -    ]],
 [[        -- -:          :-.    :-.       ==    ]],
