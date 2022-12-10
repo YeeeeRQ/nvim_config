@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  ["lualine-lsp-progress"] = {
+    loaded = true,
+    path = "/home/wox/.local/share/nvim/site/pack/packer/start/lualine-lsp-progress",
+    url = "https://github.com/arkav/lualine-lsp-progress"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/wox/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
