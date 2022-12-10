@@ -17,3 +17,6 @@ require("plugin-config.bufferline")
 -- 底部信息栏
 require("plugin-config.lualine")
 
+-- 搜索
+require("plugin-config.telescope")
+
