@@ -3,7 +3,8 @@ packer.startup({
   function(use)
     -- Packer 可以管理自己本身
     use 'wbthomason/packer.nvim'
-    -- 你的插件列表...
+    -- tokyonight
+    use("folke/tokyonight.nvim")
   end,
   config = {
     -- 并发数限制
@@ -16,9 +17,9 @@ packer.startup({
       -- default_url_format = "https://gitclone.com/github.com/%s",
     },
     display = {
-      -- open_fn = function()
-      --     return require("packer.util").float({ border = "single" })
-      -- end,
+      open_fn = function()
+          return require("packer.util").float({ border = "single" })
+      end,
     },
   },
 })
