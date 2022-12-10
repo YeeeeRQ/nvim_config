@@ -17,7 +17,14 @@ require("plugin-config.bufferline")
 -- 底部信息栏
 require("plugin-config.lualine")
 
--- 搜索
+-- 搜索 类似启动器
 require("plugin-config.telescope")
 
+-- telescope plugin 
+require("plugin-config.project")
+
+-- 启动页
 require("plugin-config.dashboard")
+
+
+
