@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/wox/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
+  },
   ["lualine-lsp-progress"] = {
     loaded = true,
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/lualine-lsp-progress",

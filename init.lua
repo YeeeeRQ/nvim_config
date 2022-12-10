@@ -20,3 +20,4 @@ require("plugin-config.lualine")
 -- 搜索
 require("plugin-config.telescope")
 
+require("plugin-config.dashboard")

@@ -20,6 +20,8 @@ packer.startup({
 
     -- telescope
     use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
+    -- dashboard-nvim
+    use("glepnir/dashboard-nvim")
   end,
   config = {
     -- 并发数限制
