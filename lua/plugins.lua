@@ -8,8 +8,6 @@ packer.startup({
     use("folke/tokyonight.nvim")
     -- nvim-tree
     use({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
-    -- nvim-tree
-    use({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
     -- bufferline
     use({ "akinsho/bufferline.nvim", 
       requires = { "kyazdani42/nvim-web-devicons", "moll/vim-bbye" }
@@ -23,6 +21,9 @@ packer.startup({
     use("ahmedkhalf/project.nvim")
     -- dashboard-nvim
     use("glepnir/dashboard-nvim")
+
+    -- treesitter
+    use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
   end,
   config = {

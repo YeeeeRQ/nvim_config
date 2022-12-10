@@ -26,5 +26,7 @@ require("plugin-config.project")
 -- 启动页
 require("plugin-config.dashboard")
 
+-- 语法高亮
+require("plugin-config.nvim-treesitter")
 
 
