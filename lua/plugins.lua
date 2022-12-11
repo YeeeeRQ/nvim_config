@@ -48,6 +48,9 @@ packer.startup({
     -- indent-blankline
     use("lukas-reineke/indent-blankline.nvim")
 
+    -- null-ls
+    use({ "jose-elias-alvarez/null-ls.nvim", requires = "nvim-lua/plenary.nvim" })
+
 
 
   end,
