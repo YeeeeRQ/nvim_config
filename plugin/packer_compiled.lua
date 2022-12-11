@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/wox/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
   ["lualine-lsp-progress"] = {
     loaded = true,
     path = "/home/wox/.local/share/nvim/site/pack/packer/start/lualine-lsp-progress",
