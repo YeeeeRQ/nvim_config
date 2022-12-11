@@ -45,6 +45,9 @@ packer.startup({
     use("rafamadriz/friendly-snippets")
     -- ui
     use("onsails/lspkind-nvim")
+    -- indent-blankline
+    use("lukas-reineke/indent-blankline.nvim")
+
 
 
   end,

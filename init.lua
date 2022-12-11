@@ -29,6 +29,8 @@ require("plugin-config.dashboard")
 -- 语法高亮
 require("plugin-config.nvim-treesitter")
 
+-- blankline
+require("plugin-config.indent-blankline")
 
 
 ------------- LSP ------------
